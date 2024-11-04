@@ -1,13 +1,10 @@
 import SecretRoom from "./09_SecretRoom";
 
-function Nook({ message1, handleReply }) {
+function Nook() {
   return (
     <div>
       Nook
-      <SecretRoom
-        message1={ message1 }
-        handleReply={ handleReply }
-      />
+      <SecretRoom />
     </div>
   )
 }

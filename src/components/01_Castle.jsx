@@ -1,13 +1,10 @@
 import Tower from "./02_Tower";
 
-function Castle({ message1, handleReply }) {
+function Castle() {
   return (
     <div>
       Castle
-      <Tower
-        message1={ message1 }
-        handleReply={ handleReply }
-      />
+      <Tower />
     </div>
   )
 }

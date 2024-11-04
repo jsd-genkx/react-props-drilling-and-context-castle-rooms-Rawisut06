@@ -1,13 +1,10 @@
 import Room from "./04_Room";
 
-function Chamber({ message1, handleReply }) {
+function Chamber() {
   return (
     <div>
       Chamber
-      <Room
-        message1={ message1 }
-        handleReply={ handleReply }
-      />
+      <Room />
     </div>
   )
 }

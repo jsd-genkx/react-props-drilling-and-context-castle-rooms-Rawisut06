@@ -1,13 +1,10 @@
 import Chamber from "./03_Chamber";
 
-function Tower({ message1, handleReply }) {
+function Tower() {
   return (
     <div>
       Tower
-      <Chamber
-        message1={ message1 }
-        handleReply={ handleReply }
-      />
+      <Chamber />
     </div>
   )
 }

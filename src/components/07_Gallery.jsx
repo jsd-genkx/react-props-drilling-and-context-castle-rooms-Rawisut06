@@ -1,13 +1,10 @@
 import Nook from "./08_Nook";
 
-function Gallery({ message1, handleReply }) {
+function Gallery() {
   return (
     <div>
       Gallery
-      <Nook
-        message1={ message1 }
-        handleReply={ handleReply }
-      />
+      <Nook />
     </div>
   )
 }
